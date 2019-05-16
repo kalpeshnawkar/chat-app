@@ -1,0 +1,187 @@
+.App {
+text-align: center;
+}  
+.labellogin1{
+
+  margin-left:-80%;
+}
+.labellogin2{
+    margin-left: -70%;
+}
+.labelregistration1{
+  margin-left: -40%;
+}
+.labelregistration2{
+  margin-left: -50%;
+}
+.labelregistration3{
+  margin-left: -25%;
+}
+.labelforgot{
+  margin-left: -80%;
+}
+.labelReset1{
+  margin-left: -50%;
+}
+.labelReset2{
+  margin-left: -40%;
+}
+.logout{
+margin-left:92%
+}
+.welcome{
+  margin-right: 81%
+}
+
+/* Set a style for all buttons */
+
+button {
+  top:100px;
+  background-color: rgb(14, 231, 14);
+  color: white ;
+  height: 30px;
+  width:250px
+  
+}
+.sendButton{
+  background-color :rgb(238, 247, 238);
+}
+.login{
+  width: 250px; 
+  border: 10px;
+  padding: 35px;
+  background-color:rgba(224,255,255,.5);
+  background-blend-mode: lighten;
+  margin: 180px;
+  text-align:center;
+  
+
+}
+.registration{
+  width: 400px; 
+  border: 10px;
+  padding: 25px;
+  background-color:rgba(224,255,255,.5);
+  margin: 182px;
+  background-blend-mode: lighten;
+}
+.dashboard{
+  width: 1267px; 
+  padding: 1PX;
+  background-color:rgba(206,194,194,.7);
+
+}
+.message{
+  width: 1269px;
+  padding: -5px;
+  background-color: white;
+  border: 3px solid black;
+  margin-left: 208px;
+  margin-right: 105px;
+  margin-top: 3%;
+  overflow-y: auto;
+}
+.typeMessage{
+  width: 54%;
+  height: 24px;
+  margin-left: -275px;
+}
+  .App-link {
+  color: #61dafb;
+}
+.mainDivLogin{
+  display: flex;
+justify-content: center;
+margin-top: -82px;
+background-image: url("./assets/images/new.jpg");
+background-color: #cccccc;
+}
+.mainDivRegistration{
+  display: flex;
+justify-content: center;
+margin-top: -80px;
+background-image: url("./assets/images/regis.jpeg");
+background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.mainDivReset{
+  display: flex;
+justify-content: center;
+margin-top: 0px;
+background-image: url("./assets/images/reset.jpg");
+background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.mainDivForgot{
+  display: flex;
+justify-content: center;
+margin-top: 0px;
+background-image: url("./assets/images/new1.jpg");
+background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.mainDivDashBoard{
+  /* display: flex; */
+justify-content: center;
+
+background-image: url("./assets/images/new1.jpg");
+background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: cover;
+Height:620px
+
+}
+.submitButton{
+  top:100px;
+  background-color: rgb(14, 231, 14);
+  color: white ;
+  height: 30px;
+  width:100px
+  
+}
+.senderDiv{
+  background-color: antiquewhite;
+  border-radius: 20px;
+  widows: 300px;
+  padding: 10px;
+  margin-bottom: 8px;
+  margin-left:51%
+}
+.receiverDiv{
+  background-color: antiquewhite;
+  border-radius: 20px;
+  widows: 300px;
+  padding: 10px;
+  margin-bottom: 8px;
+  margin-left: 2px;
+  margin-right: 461px
+}
+.msg{
+  margin-right: 465px;
+  background-color: antiquewhite;
+}
+.msg1{
+  margin-left: 465px;
+  background-color: antiquewhite;
+}
+
+.ul{
+  cursor: pointer;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

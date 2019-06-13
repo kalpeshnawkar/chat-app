@@ -10,7 +10,6 @@ const io = require("socket.io").listen(http)
 mongoose.set('usecreateIndexes', true)
 const chatcontroller=require('./controllers/chat.controller')
 var users = [];
- 
 io.sockets.on("connection", function(socket)
 {
         users.push(socket),

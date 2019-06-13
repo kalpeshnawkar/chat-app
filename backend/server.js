@@ -79,7 +79,6 @@ mongoose.connect(dbConfig.url, {
 app.get('/', (req, res) => {
     res.json({ "message": "Welcome to chat app." });
 });
-
 // listen for requests
 http.listen(4000, () => {
     console.log("Server is listening on port 4000");
